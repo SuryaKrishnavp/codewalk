@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(/static/images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+}
+#navbar{
+    color: white;
+    font-family: cursive
+}
+#navbar:hover{
+    color: aqua;
+    
+}
+#navbar:active{
+    color: red;
+}
+a{
+    color: white;
+    font-family: cursive
+}
+#navbarDropdown a:hover{
+    color: aqua;
+}
+@media only screen and (max-width:600px) {
+    #dropbutton{
+        margin-right: 70px;
+    }
+}
